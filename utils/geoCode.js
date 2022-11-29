@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 
 const getGeoCode = (adress, callback) => {
-  const getUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${adress}&appid=2cd188cf50ee75c19c083c92757ceef1`;
+  const getUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${adress}&appid={enterurkey}`;
 
   fetch(getUrl)
     .then((res) => res.json())

@@ -9,14 +9,14 @@ import getGeoCode from "./utils/geoCode.js";
 import forecast from "./utils/forecast.js";
 
 // const getGeoCode = require("./utils/geoCode.js"); // Getting error while fetching the data from other file so keeping here only
-// const url = `https://api.openweathermap.org/data/2.5/weather?lat=37.8267&lon=-122.4233&appid=2cd188cf50ee75c19c083c92757ceef1`;
+// const url = `https://api.openweathermap.org/data/2.5/weather?lat=37.8267&lon=-122.4233&appid=${enter your key}`;
 
 // // request({ url: url }, (error, response) => {
 // //   console.log(response);
 // // });
 
 // fetch(
-//   "https://api.openweathermap.org/data/2.5/weather?q=mumbai&units=metric&APPID=2cd188cf50ee75c19c083c92757ceef1"
+//   "https://api.openweathermap.org/data/2.5/weather?q=mumbai&units=metric&APPID={enter ur key}"
 // )
 //   .then((response) => response.json())
 //   .then((data) => console.log(data))
@@ -27,7 +27,7 @@ import forecast from "./utils/forecast.js";
 
 // using new imprt methd to get the information
 // const getGeoCode = (adress) => {
-//   const getUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${adress}&appid=2cd188cf50ee75c19c083c92757ceef1`;
+//   const getUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${adress}&appid={enter ur key}`;
 
 //   fetch(getUrl)
 //     .then((res) => res.json())

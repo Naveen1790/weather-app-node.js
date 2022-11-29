@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 
 const forecast = (lat, lon, callback) => {
-  const forecastURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=2cd188cf50ee75c19c083c92757ceef1`;
+  const forecastURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${enterurkey}`;
   fetch(forecastURL)
     .then((res) => res.json())
     .then((data) => {
