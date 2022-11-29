@@ -1,0 +1,24 @@
+{
+  "name": "02-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naveen1790/weather-app-node.js.git"
+  },
+  "keywords": [],
+  "author": "Naveen Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naveen1790/weather-app-node.js/issues"
+  },
+  "homepage": "https://github.com/Naveen1790/weather-app-node.js#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
